@@ -2,6 +2,7 @@
 
 <head>
     <title>Mecubro Frontend - 01</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -17,10 +18,10 @@
             <div class="col-lg-8 col-lg-offset-2 py-5">
 
                 <p class="lead">NEW CONTACT</p>
-                <hr><br>
+                <hr>
+                <br>
 
                 <form id="contact-form" role="form">
-
 
                     <div class="controls">
 
@@ -33,7 +34,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input id="form_lastname" type="text" name="lastname" class="form-control" style="text-transform: capitalize;"  placeholder="Last Name" required="required" data-error="Lastname is required.">
+                                    <input id="form_lastname" type="text" name="lastname" class="form-control" style="text-transform: capitalize;" placeholder="Last Name" required="required" data-error="Lastname is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -41,7 +42,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input id="form_dob" type="date" name="dob" max="2001-01-01" class="form-control" placeholder="Date of Birth" required="required" data-error="Date of birth is required." >
+                                    <input id="form_dob" type="date" name="dob" max="2001-01-01" class="form-control" placeholder="Date of Birth" required="required" data-error="Date of birth is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -55,7 +56,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <select class="form-control" name ="country" id="form_country" required="required" data-error="Country is required.">
+                                    <select class="form-control" name="country" id="form_country" required="required" data-error="Country is required.">
                                     </select>
                                     <div class="help-block with-errors"></div>
                                 </div>
@@ -75,7 +76,9 @@
                 </div>
 
                 <p class="lead">CONTACTS LIST</p>
-                <table class="table table-striped"> <tbody> </tbody> </table>
+                <table class="table table-striped">
+                    <tbody> </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -84,6 +87,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
+
 </body>
 
 </html>
