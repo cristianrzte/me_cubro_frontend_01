@@ -1,6 +1,5 @@
-###################
+
 Me cubro - Frontend 01
-###################
 
 Ejemplo simple de agenda personal.
 
